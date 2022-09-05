@@ -1,0 +1,445 @@
+@import url(./font.css);
+.login {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+html {
+    font-family: 'Poppins' !important;
+    font-family: 'Rubik'!important;
+    height: 100%;
+
+}
+
+.bgLogin {
+    background-image: url(/images/union.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #2364BE;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 682px;
+}
+
+.bgRegis {
+    background-image: url(/images/Ellipse19.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #2364BE;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 682px;
+}
+.header{
+    background-image: url(/images/Ellipse19.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #2364BE;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 396px;
+}
+.bgLupa-pin {
+    width: 100%;
+    height: 536px;
+    position: absolute;
+    margin-top: 396px;
+    
+    /* base-background */
+    
+    background: #F9F9F9;
+}
+.bgNasabah {
+    width: 100%;
+    height: 758px;
+    position: absolute;
+    margin-top: 396px;
+    
+    /* base-background */
+    
+    background: #F9F9F9;
+}
+.nav {
+    background: #00529C!important;
+    width: 100%!important;
+}
+.headerContainer {
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+.asset1 {
+    position: relative;
+    left:100px ;
+}
+.divLogin {
+    margin-bottom: 45px;
+    margin-top: 145px;
+    width: 386px;
+}
+.LOGIN {
+    width: 532px;
+    height: 72px;
+    left: 100px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #FCFCFC;
+}
+
+.wordingNIK {
+    width: 100%;
+    height: 21px;
+    left: 100px;
+    top: 200px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFC;
+}
+.divCenter {
+    display: flex;
+    position: relative;
+    margin-top: 45px;
+}
+.wordCreateAcc {
+    width: 146px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Body */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    align-items: center;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}
+.CreateAcc {
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 154px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    /* text-inverted */
+
+    color: #FFFFFF;
+}
+.wordingForgotPin {
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 270px;
+    top: 36px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.divflex {
+    display: flex;
+    position: relative;
+}
+.btn-warning.custom-btn {
+    position: relative;
+    padding: 12px 24px;
+    width: 344px;
+    height: 48px;
+    top: 20px;
+    background-color: #F59823!important;
+    color: white!important;
+    border-radius: 40px;
+}
+.btn-warning.customlanjut {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 74px;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 472px;
+    top: 470px;
+    background-color: #F59823!important;
+    color: white!important;
+    border-radius: 40px;
+}
+.btn-light.customkembali {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 30px;
+
+    width: 116px;
+    height: 48px;
+    left: 140px;
+    top: 770px;
+
+    background-color: #FFFFFF;
+    color: #F59823;;
+    /* interactive */
+
+    border: 2px solid #F59823;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.btn-warning.customnas {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 74px;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 472px;
+    top: 670px;
+    background-color: #F59823!important;
+    color: white!important;
+    border-radius: 40px;
+}
+.form-control.customnik {
+    height: 45px;
+    left: 16px;
+    right: 16px;
+    top: 12px;
+    width: 344px;
+
+
+    /* Body */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* text-secondary */
+
+    color: #73808C;
+}
+.form-control.custompin {
+    height: 45px;
+    left: 16px;
+    right: 16px;
+    top: 12px;
+    width: 243px;
+    
+    
+    /* Body */
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    /* text-secondary */
+    
+    color: #73808C;
+}
+.form-control.customlp{
+    width: 632px;
+    height: 48px;
+    left: 16px;
+    right: 16px;
+    top: 12px;
+
+    /* Body */
+
+    background: #F8F7F7;
+    /* border */
+    
+    border: 2px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.form-control.customhp{
+    width: 316px;
+    height: 48px;
+    left: 16px;
+    right: 16px;
+    top: 12px;
+
+    /* Body */
+
+    background: #F8F7F7;
+    /* border */
+    
+    border: 2px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.lupa-pin {
+    position: relative;
+    width: 712px;
+    height: 524px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.nasabah {
+    position: relative;
+    width: 712px;
+    height: 748px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.wordingIdentitas {
+    width: 100%;
+    height: 32px;
+    left: 40px;
+    margin-top: 70px;
+    margin-bottom: 72px;
+
+    /* H3 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.2px;
+
+    /* text-primary */
+
+    color: #171A1C;
+}
+.wordNIK {
+    width: 150px;
+    height: 24px;
+    left: 40px;
+    top: 216px;
+
+    /* body-readable */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* text-primary */
+
+    color: #171A1C;
+}
+.divID{
+    margin-left: 40px;
+}
+.wordRegis {
+    width: 111px;
+    height: 24px;
+    left: 70px;
+    top: 24px;
+
+    /* Body bold */
+    position: absolute;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    text-align: right;
+    /* identical to box height, or 150% */
+
+
+    /* text-primary */
+
+    color: #171A1C;
+}
+
+.wordOTP {
+    width: 572px;
+    height: 50px;
+    left: 140px;
+    top: 488px;
+
+    /* Body */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* text-secondary */
+
+    color: #73808C;
+}
+.wordUlang {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    /* interactive */
+
+    color: #F59823;
+}
+.otp {
+    width: 41px;
+    height: 56px;
+    border-radius: 4px;
+    border: solid 1px #c6cbdb;
+    text-align: center;
+    font-size: 16px;
+}
+.spanx {
+    display: flex;
+}
